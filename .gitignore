@@ -1,0 +1,35 @@
+# build output
+dist/
+.next/
+out/
+
+# dependencies
+node_modules/
+
+# logs
+yarn-debug.log*
+yarn-error.log*
+
+# environment variables
+.env
+.env.production
+
+# macOS-specific files
+.DS_Store
+
+node_modules
+/dist
+.tmp/
+.strapi-updater.json
+
+# local env files
+.env
+
+#build
+.strapi
+.cache
+build
+admin/types
+
+#images
+public/uploads
